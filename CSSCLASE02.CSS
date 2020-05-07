@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.articles-wrapper {
+    display: flex;
+
+}
+
+.article {
+    width: 600px;
+    margin: 3em auto; 
+    border: 0px solid;
+    padding: 1.8em 2em;
+    margin-top: 1em;
+}
+
+.article .article-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+
+}
+
+.article .text {
+    margin-top: 1.5em;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 1.6em;
+ line-height: 1.5em;
+
+}
+.article .image {
+    margin-top: 1.5em;
+    display:block;
+    width: 200px;
+    height: auto;
+}
+
+.article.art1{
+    background-color: #77282E;
+}
+
+.article.art2{
+    background-color: #FFB711;
+}
+
+.article.art3{
+    background-color: rgb(76, 80, 192);
+}
+
+.article.art4{
+    background-color: #0CA347;
+}
